@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FRZBorderButton" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="LcN-XU-yaM">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taf-n1-R54" customClass="FRZBorderButton" customModule="FRZBorderButton" customModuleProvider="target">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="W7b-4V-N1H"/>
+                                            <constraint firstAttribute="height" constant="50" id="nP1-qf-aT3"/>
+                                        </constraints>
+                                        <state key="normal" title="Custom"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderAndTextColor">
+                                                <color key="value" red="0.17343789339065552" green="0.98450225591659546" blue="0.82721513509750366" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="myButtonTypeName" value="next"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="buttonTypeName" value="cancel"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRn-g6-mWF" customClass="FRZBorderButton" customModule="FRZBorderButton" customModuleProvider="target">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="Bzv-v1-DzV"/>
+                                            <constraint firstAttribute="height" constant="50" id="jER-q9-LjC"/>
+                                        </constraints>
+                                        <state key="normal" title="Далее →"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderAndTextColor">
+                                                <color key="value" red="0.17343789339065552" green="0.98450225591659546" blue="0.82721513509750366" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="myButtonTypeName" value="next"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="buttonTypeName" value="preview"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kV4-SR-TcR" customClass="FRZBorderButton" customModule="FRZBorderButton" customModuleProvider="target">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="JIy-xJ-5Su"/>
+                                            <constraint firstAttribute="width" constant="200" id="ihd-84-uXP"/>
+                                        </constraints>
+                                        <state key="normal" title="Далее →"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderAndTextColor">
+                                                <color key="value" red="0.17343789339065552" green="0.98450225591659546" blue="0.82721513509750366" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="myButtonTypeName" value="next"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="buttonTypeName" value="next"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="glN-cL-FYw" customClass="FRZBorderButton" customModule="FRZBorderButton" customModuleProvider="target">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="IHy-In-gIr"/>
+                                            <constraint firstAttribute="width" constant="200" id="ZO9-g4-sVB"/>
+                                        </constraints>
+                                        <state key="normal" title="Далее →"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderAndTextColor">
+                                                <color key="value" red="0.17343789339065552" green="0.98450225591659546" blue="0.82721513509750366" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="myButtonTypeName" value="next"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="buttonTypeName" value="done"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bhF-cD-Owk" customClass="FRZBorderButton" customModule="FRZBorderButton" customModuleProvider="target">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="3yH-By-dOD"/>
+                                            <constraint firstAttribute="width" constant="200" id="hSP-YJ-eCg"/>
+                                        </constraints>
+                                        <state key="normal" title="Далее →"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderAndTextColor">
+                                                <color key="value" red="0.17343789339065552" green="0.98450225591659546" blue="0.82721513509750366" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="myButtonTypeName" value="next"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="buttonTypeName" value="edit"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35Q-FA-rgy" customClass="FRZBorderButton" customModule="FRZBorderButton" customModuleProvider="target">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="P8W-fQ-eQp"/>
+                                            <constraint firstAttribute="width" constant="200" id="nXQ-qP-4yU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="38"/>
+                                        <state key="normal" title="Custom"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderAndTextColor">
+                                                <color key="value" red="0.17343789339065552" green="0.98450225591659546" blue="0.82721513509750366" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="myButtonTypeName" value="next"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="buttonTypeName" value="default"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="customColor">
+                                                <color key="value" red="0.174337238073349" green="0.064436756074428558" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LcN-XU-yaM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="CoH-tt-Plo"/>
+                            <constraint firstItem="LcN-XU-yaM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vXh-pS-9pB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
